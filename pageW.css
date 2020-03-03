@@ -1,0 +1,99 @@
+body {
+  background-color: #343752;
+  color: white;
+}
+
+h1, h2 {
+  font-family: "calibri";
+}
+p {
+  font-family: "arial";
+}
+
+#flexcontainer {
+  padding:10px;
+  display:flex;
+  border:1px solid gray;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  vertical-align: text-top;
+}
+
+.div1 {
+  margin:10px;
+  padding: 10px;
+  width :300px;
+  height:150px;
+  background-color:#37B6B7;
+}
+.div2 {
+  margin:10px;
+  padding: 10px;
+  width :300px;
+  height:150px;
+  background-color:#683FB7;
+}
+.div3 {
+  margin:10px;
+  padding: 10px;
+  width :300px;
+  height:150px;
+  background-color: #B71C54;
+}
+.div4 {
+  margin:10px;
+  padding: 10px;
+  width :300px;
+  height:150px;
+  background-color: #4C98E7;
+}
+#flexcontainer2 {
+  margin:10px;
+  width :320px;
+  height:170px;
+  display:flex;
+  justify-content: space-between;
+}
+.div5a {
+  text-align: center;
+  margin-right: 5px;
+  width :170px;
+  height:170px;
+  background-color: #B71C54;
+}
+.div5b {
+  text-align: center;
+  margin-left: 5px;
+  width :170px;
+  height:170px;
+  background-color: #DA542D;
+}
+.div6 {
+  margin:10px;
+  padding:10px;
+  width :300px;
+  height:150px;
+  color:black;
+  background-color: white;
+}
+.icone {
+  width :50px;
+  height:50px;
+  float:right;
+}
+.icone2 {
+  width :50px;
+  height:50px;
+}
+img {
+  width :310px;
+  height:150px;
+}
+
+h2+div {
+  float:right;
+}
+
+img {
+  margin: 10px;
+}

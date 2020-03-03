@@ -1,0 +1,37 @@
+body {
+  height:100%;
+}
+
+html {
+  height:100%;
+}
+
+div {
+  vertical-align: top;
+  height:100%;
+}
+
+#flexcontainer {
+  display:flex;
+  flex-direction: row;
+  background-color: lightgrey;
+  border:1px solid gray;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  flex-grow: 1;
+  background-color: lightblue;
+}
+.div2 {
+  flex-grow: 1;
+  background-color: green;
+}
+.div3 {
+  flex-grow: 1;
+  background-color: red;
+}
+
+img {
+  margin: 10px;
+}
